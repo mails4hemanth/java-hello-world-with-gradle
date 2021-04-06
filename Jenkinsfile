@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven "gradle"
+        gradle "gradle"
     }
     stages {
         stage('checkout&build') {
